@@ -1,0 +1,67 @@
+@media(max-width:1280px) {
+    .header {
+        flex-wrap: wrap;
+    }
+
+    .div2 {
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+
+    .ul {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .inp {
+        margin-top: 20px;
+    }
+
+    .ff {
+        flex-direction: column;
+    }
+}
+
+@media(max-width:580px) {
+    .xx {
+        width: 400px;
+        height: 130px;
+        object-fit: cover;
+    }
+
+    .animals1 {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .div-main2 {
+        display: block;
+    }
+
+    .cart2 {
+        width: 100%;
+    }
+
+    .bb {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+
+    }
+
+    .div-s5 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .div-footer {
+        flex-wrap: wrap;
+    }
+
+    .kot {
+        width: 280px;
+        height: 78px;
+
+    }
+
+}

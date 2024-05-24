@@ -1,0 +1,396 @@
+/* .p {
+    color: black;
+    background-color: #8b7f7f;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 25px;
+
+}
+
+.gg2 {
+    color: darkgreen;
+    background-color: rgb(53, 48, 48);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.pp1 {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+
+.hh {
+    color: crimson;
+}
+
+.title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    color: rgb(12, 11, 11);
+    background-color: rgb(188, 192, 199);
+    width: 100px;
+    border-radius: 2px;
+    padding: 3px;
+
+}
+
+.img1 {
+    width: 200px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.img2 {
+    width: 200px;
+    height: 160px;
+}
+
+.ppcl {
+    color: antiquewhite;
+    text-decoration: none;
+} */
+
+.logo {
+    width: 200px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+p {
+    margin: 0px;
+}
+
+.шапка {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.li {
+    margin-right: 60px;
+    color: aliceblue;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.ali {
+    text-decoration: none;
+    color: white;
+}
+
+.div2 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.cont-div2 {
+    margin-right: 90px;
+
+}
+
+.p1 {
+    font-size: 20px;
+}
+
+.num {
+    color: blue;
+    font-size: 25px;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.cont-div-a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+
+.cont-div-a:hover {
+    color: rgb(42, 81, 122);
+
+}
+
+.ul {
+    margin: 0px;
+    padding: 18px;
+    background-color: rgb(67, 67, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.animal {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.inp {
+    border-radius: 20px;
+    padding: 8px;
+    border: 2px solid black;
+    width: 250px;
+}
+
+.животные1 {
+    width: 100%;
+    height: 310px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+
+
+.div-main {
+    border-radius: 20px;
+    width: 380px;
+    background-color: rgba(59, 112, 39, 0.5);
+    margin: 10px;
+}
+
+.p-main {
+    padding: 20px;
+}
+
+.card-div {
+    display: flex;
+    border-bottom: 2px solid rgb(19, 19, 49);
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.cart {
+
+    height: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cart:hover {
+    background-color: rgb(69, 165, 107);
+    transition: 400ms;
+}
+
+
+
+.section2 {
+    margin: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(8, 96, 168, 0.3)
+}
+
+.section1 {
+    margin-bottom: -4px;
+}
+
+.animals1 {
+    height: 200px;
+    width: 250px;
+    border-radius: 19px;
+    object-fit: cover;
+
+}
+
+.p2 {
+    display: flex;
+    justify-content: center;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(14, 144, 153);
+}
+
+.section3 {
+    margin: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(8, 96, 168, 0.3);
+    justify-content: center;
+}
+
+.div-main2 {
+    margin: 10px;
+    background-color: rgb(138, 203, 219);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 29px;
+    display: flex;
+    width: 725px;
+    justify-content: space-between;
+
+}
+
+.cart2 {
+    height: 28px;
+    width: 75px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    transition: 1000ms;
+    cursor: pointer;
+    align-items: center;
+}
+
+.cart2:hover {
+    background-color: rgb(77, 179, 179);
+    height: 35px;
+    border-radius: 25px;
+}
+
+.cart2:focus {
+    background-color: rgb(165, 67, 42);
+}
+
+
+
+.button {
+    display: flex;
+    align-items: flex-end;
+    padding-right: 15px;
+}
+
+.p-cart {
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+}
+
+.img1 {
+    display: flex;
+    align-items: center;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.h-0 {
+    color: rgb(43, 129, 163);
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.img-s4 {
+    margin: 50px;
+    margin-top: 20px;
+    width: 240px;
+    height: 108px;
+}
+
+
+
+.div-s5 {
+    display: flex;
+    width: 550px;
+    align-items: center;
+    margin: 70px;
+}
+
+.p-s5 {
+    margin: 25px;
+}
+
+.h-s5 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.div-all-s5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section5 {
+    background-color: rgb(154, 207, 216);
+}
+
+
+
+.div-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-footer {
+    width: 225px;
+    height: 160px;
+}
+
+.div-f {
+    display: flex;
+    margin-top: 30px;
+}
+
+.pf {
+    font-size: 16px;
+    margin: 13px;
+    cursor: pointer;
+}
+
+.pf:hover {
+    color: rgb(122, 120, 120)
+}
+
+.h-f {
+    font-size: 28px;
+    margin: 0;
+}
+
+.button-f {
+    display: flex;
+    align-items: flex-end;
+    padding-right: 5px;
+    border-radius: 6px;
+    padding-left: 5px;
+}
+
+.svg-ani {
+    display: flex;
+}
+
+.ff {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4 {
+    display: block;
+}
